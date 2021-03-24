@@ -1,0 +1,21 @@
+{
+  "name": "vendor_name/php-learning",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "nam",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "./"
+    ]
+  }
+}
